@@ -22,6 +22,9 @@
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/angular-route.min.js"></script>
+    <script type="text/javascript" src="js/controller.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,16 +54,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="" ng-click="homePage()">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="" ng-click="aboutPage()">About</a>
                     </li>
                     <li>
-                        <a href="post.html">Portfolio</a>
+                        <a href="">Portfolio</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="" ng-click="contactPage()">Contact</a>
                     </li>
                 </ul>
             </div>
